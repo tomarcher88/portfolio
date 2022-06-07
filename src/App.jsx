@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import About from './components/About'
 import Hero from './components/Hero'
 import ProjectGallery from './components/ProjectGallery'
 
@@ -11,6 +12,7 @@ function App() {
    <main className='font-roboto'>
      <Hero />
      <ProjectGallery />
+     <About />
    </main>
   )
 }

@@ -11,13 +11,13 @@ export default function ProjectGallery() {
         description={description}
         url={url}
         image={image}
+        
       />
       );
     }
   );
   return (
-    <div className="grid">
-      <h1>Projects</h1>
+    <div className="grid grid-cols-1 object-cover gap-4">
       {projectTiles}
     </div>
   );
