@@ -25,8 +25,9 @@ export default [
   {
     title: "Calculator",
     codebase: ["html", "js", "css"],
-    description: "...",
+    description:
+      "Blah blah blah. Blah blah blah. Blah blah blah. Blah blah blah. Blah blah blah. Blah blah blah. Blah blah blah. Blah blah blah. Blah blah blah. Blah blah blah.",
     url: "https://calculator.onrender.com/",
-    image: 'https://live.staticflickr.com/65535/52129706706_142f3c4cef_c.jpg',
+    image: "https://live.staticflickr.com/65535/52129706706_142f3c4cef_c.jpg",
   },
 ];

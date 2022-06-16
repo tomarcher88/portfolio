@@ -17,8 +17,8 @@ export default function ProjectGallery() {
     }
   );
   return (
-    <div className="grid grid-cols-1 object-cover gap-4">
+    <article className="grid grid-cols-1 object-cover" id="Projects">
       {projectTiles}
-    </div>
+    </article>
   );
 }
