@@ -14,7 +14,7 @@ export default [
   {
     title: 'Tenzies Game',
     codebase: ["html", "react", "css"],
-    description: "",
+    description: "Fairly basic game, good practice for conditional rendering and handling state.",
     url: 'https://tom-archer-tenzies-game.netlify.app/',
     image: "",
   },
@@ -22,7 +22,7 @@ export default [
     title: "Cmpny X",
     codebase: ["html", "react", "css"],
     description:
-      "I realise it's fairly basic and doesn't need React, however, I wanted the ability to add features as my knowledge grew. I also thought it was a good idea to just get some reps in when it comes to creating components.",
+      "Working on a corporate looking site using React, primarily to get some reps in with making components, etc.",
     url: "https://stoic-bose-f9273c.netlify.app/",
     image: "https://live.staticflickr.com/65535/52129728363_dc8e101841_c.jpg",
   },

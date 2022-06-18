@@ -4,14 +4,14 @@ export default function Hero() {
       className="grid h-screen place-content-center bg-slate-500"
       id="Home"
     >
-      <p className="text-2xl text-center p-5 sm:p-24">
+      <p className="text-2xl text-center p-5 sm:px-24 md:px-60">
         <span className="text-9xl">Hello</span>
         <br />
         I'm Tom, a self taught developer with experience using{" "}
         <a href="https://github.com/tomarcher88" target="_blank">
           <span className="bg-opacity-60 bg-slate-300 px-1 rounded">HTML</span>,{" "}
           <span className="bg-opacity-60 bg-slate-300 px-1 rounded">CSS</span> &{" "}
-          <span className="bg-opacity-60 bg-slate-300 px-1  rounded">
+          <span className="bg-opacity-60 bg-slate-300 px-1 rounded">
             JavaScript
           </span>
         </a>
