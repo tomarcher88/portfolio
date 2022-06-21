@@ -44,7 +44,7 @@ export default [
   {
     title: "Calculator",
     codebase: ["html", "js", "css"],
-    description: "This will be replaced very soon.",
+    description: "To be removed.",
     url: "https://calculator.onrender.com/",
     image: "https://live.staticflickr.com/65535/52129706706_142f3c4cef_c.jpg",
   },

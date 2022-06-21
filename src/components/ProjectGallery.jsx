@@ -9,7 +9,7 @@ export default function ProjectGallery() {
         image ===
         "https://live.staticflickr.com/65535/52155561630_a36bb8cae8_c.jpg"
       ) {
-        description = description + " - Photo by Huma Kabakci on Unsplash."
+        description = [...description, " - Photo by Huma Kabakci on Unsplash."]
       };
       return(
       <ProjectTile

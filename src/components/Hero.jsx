@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <header
-      className="grid h-screen place-content-center bg-slate-500"
+      className="grid min-h-screen place-content-center bg-slate-500"
       id="Home"
     >
       <p className="text-2xl text-center p-5 sm:px-24 md:px-60">

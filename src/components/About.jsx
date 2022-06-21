@@ -4,7 +4,7 @@ import linkedinLogo from '../images/LinkedIn.png'
 
 export default function About() {
   return (
-    <footer className="bg-slate-300 h-screen flex items-center justify-center">
+    <footer className="bg-slate-300 min-h-screen flex items-center justify-center">
       <article className="text-2xl text-center p-5 sm:p-24" id="About">
         <h1 className="py-4 text-9xl">About</h1>
         <p className="text-center">
@@ -17,41 +17,46 @@ export default function About() {
           start building a career along with my knowledge.
         </p>
         <div className="py-6">
-          <ul className="flex justify-around text-xl">
+          <ul className="flex flex-col gap-8 sm:flex-row justify-evenly text-xl w-3/4 m-auto ">
             <li>
               <a
-                className="grid justify-items-center"
+                className="grid text-base sm:text-lg justify-items-center"
                 href="https://github.com/tomarcher88"
                 target="_blank"
-                rel="noopener noreferrer"
               >
-                <img className="max-h-12" src={githubLogo} alt="GitHub Logo" />
+                <img
+                  className="max-h-8 sm:max-h-12"
+                  src={githubLogo}
+                  alt="GitHub Logo"
+                />
                 @tomarcher88
               </a>
             </li>
             <li>
               <a
-                className="grid justify-items-center"
+                className="grid text-base sm:text-lg justify-items-center"
                 href="mailto:hello@tomarcher.uk"
                 target="_blank"
-                rel="noopener noreferrer"
               >
-                <img className="max-h-12" src={emailLogo} alt="Outlook logo" />
+                <img
+                  className="max-h-8 sm:max-h-12"
+                  src={emailLogo}
+                  alt="Outlook logo"
+                />
                 hello@tomarcher.uk
               </a>
             </li>
             <li>
               <a
-                className="grid justify-items-center"
+                className="grid text-base sm:text-lg justify-items-center"
                 href="https://www.linkedin.com/in/tom-archer/"
                 target="_blank"
-                rel="noopener noreferrer"
               >
-              <img
-                className="max-h-12"
-                src={linkedinLogo}
-                alt="LinkedIn Logo"
-              />
+                <img
+                  className="max-h-8 sm:max-h-12"
+                  src={linkedinLogo}
+                  alt="LinkedIn Logo"
+                />
                 @Tom Archer
               </a>
             </li>
