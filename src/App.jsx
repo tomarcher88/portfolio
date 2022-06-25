@@ -9,7 +9,7 @@ function App() {
 
 
   return (
-   <main className='font-roboto'>
+   <main className='font-noto-sans text-stone-300'>
      <Hero />
      <ProjectGallery />
      <About />

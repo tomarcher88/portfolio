@@ -4,9 +4,9 @@ import linkedinLogo from '../images/LinkedIn.png'
 
 export default function About() {
   return (
-    <footer className="bg-slate-300 min-h-screen flex items-center justify-center">
+    <footer className="bg-slate-700 min-h-screen flex items-center justify-center">
       <article className="text-2xl text-center p-5 sm:p-24" id="About">
-        <h1 className="py-4 text-9xl">About</h1>
+        <h1 className="py-4 text-9xl font-fjalla-one">About</h1>
         <p className="text-center">
           Having spent the last two years embracing self-improvement and
           devoting myself to learning web development, I have built up an

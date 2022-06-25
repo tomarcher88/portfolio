@@ -9,7 +9,7 @@ export default function ProjectGallery() {
         image ===
         "https://live.staticflickr.com/65535/52155561630_a36bb8cae8_c.jpg"
       ) {
-        description = [...description, " - Photo by Huma Kabakci on Unsplash."]
+        description = [...description, " Photo by Huma Kabakci on Unsplash."]
       };
       return(
       <ProjectTile
@@ -24,7 +24,8 @@ export default function ProjectGallery() {
     }
   );
   return (
-    <article className="grid grid-cols-1 object-cover" id="Projects">
+    <article className="grid grid-cols-1 object-cover bg-slate-700" id="Projects">
+      <h1 className="font-fjalla-one text-center text-6xl mb-3 underline">Projects</h1>
       {projectTiles}
     </article>
   );

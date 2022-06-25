@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        roboto: "Roboto, sans"
+        'fjalla-one': "'Fjalla One', sans-serif",
+        'noto-sans': "'Noto Sans', sans-serif",
       }
     },
   },
