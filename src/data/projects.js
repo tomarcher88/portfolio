@@ -16,7 +16,7 @@ export default [
     codebase: ["html", "react", "css"],
     description: "My first game! Good practice for conditional rendering and handling state.",
     url: 'https://tom-archer-tenzies-game.netlify.app/',
-    image: "",
+    image: "https://live.staticflickr.com/65535/52171897169_d81ce136b2_c.jpg",
   },
   {
     title: "Cmpny X",
