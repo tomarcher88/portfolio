@@ -12,10 +12,19 @@
   */
 export default [
   {
-    title: 'Tenzies Game',
+    title: "Quiz App",
+    codebase: ["html", "react", "axios", "tailwindcss"],
+    description:
+      "Stepped up the complexity on this one, first time using Axios, Context & TailwindCSS.",
+    url: "https://idyllic-llama-9692b4.netlify.app/",
+    image: "https://live.staticflickr.com/65535/52438932766_d43d18bb19_c.jpg",
+  },
+  {
+    title: "Tenzies Game",
     codebase: ["html", "react", "css"],
-    description: "My first game! Good practice for conditional rendering and handling state.",
-    url: 'https://tom-archer-tenzies-game.netlify.app/',
+    description:
+      "My first game! Good practice for conditional rendering and handling state.",
+    url: "https://tom-archer-tenzies-game.netlify.app/",
     image: "https://live.staticflickr.com/65535/52171897169_d81ce136b2_c.jpg",
   },
   {
