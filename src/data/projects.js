@@ -12,6 +12,13 @@
   */
 export default [
   {
+    title: "Weekly Planner",
+    codebase: ["html", "react", "tailwindcss"],
+    description: "A weekly planner, consisting of a diary, todo list and gratitude & celebrations lists",
+    url: "https://unique-empanada-c87612.netlify.app/",
+    image: "https://live.staticflickr.com/65535/52484461705_ed8c2c6213_c.jpg",
+  }, 
+  {
     title: "Quiz App",
     codebase: ["html", "react", "axios", "tailwindcss"],
     description:
