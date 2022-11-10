@@ -10,7 +10,15 @@
   }, 
 
   */
+ "https://live.staticflickr.com/65535/52490533024_f40537eace_z.jpg"
 export default [
+  {
+    title: "Weather App 3.0",
+    codebase: ["html", "react", "axios", "tailwindcss"],
+    description: "Weather App 3.0 is the most aesthetic and responsive version yet. Plus, SEARCHABLE 🤯",
+    url: "https://regal-sfogliatella-47f736.netlify.app/",
+    image: "https://live.staticflickr.com/65535/52490533024_f40537eace_z.jpg",
+  }, 
   {
     title: "Weekly Planner",
     codebase: ["html", "react", "tailwindcss"],
@@ -30,7 +38,7 @@ export default [
     title: "Tenzies Game",
     codebase: ["html", "react", "css"],
     description:
-      "My first game! Good practice for conditional rendering and handling state.",
+      "My first game! Good practice for conditional rendering and handling state. Feat. React Confetti.",
     url: "https://tom-archer-tenzies-game.netlify.app/",
     image: "https://live.staticflickr.com/65535/52171897169_d81ce136b2_c.jpg",
   },
@@ -43,9 +51,9 @@ export default [
     image: "https://live.staticflickr.com/65535/52129728363_dc8e101841_c.jpg",
   },
   {
-    title: "React Weather App",
+    title: "Weather App 2.0",
     codebase: ["html", "react", "css"],
-    description: "This was my first standalone, no tutorial, React project. ",
+    description: "A redo of a vanilla JS version, this was my first standalone, no tutorial, React project.",
     url: "https://weatherapp2react.netlify.app/",
     image: "https://live.staticflickr.com/65535/52129706716_8f7ee63257_c.jpg",
   },
@@ -53,7 +61,7 @@ export default [
     title: "Anonymask",
     codebase: ["html", "js", "css"],
     description:
-      "Requires the Chrome flag 'Experimental Web Platform features' to be enabled",
+      "Requires the Chrome flag 'Experimental Web Platform features' to be enabled. A modified tutorial project.",
     url: "https://anonymask.onrender.com/",
     image: "https://live.staticflickr.com/65535/52129943559_91e711e1f7_c.jpg",
   },

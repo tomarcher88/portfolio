@@ -22,7 +22,7 @@ export default function ProjectTile({
           <p className="py-1 sm:py-2">{description}</p>
           <ul className="flex justify-center gap-4 py-2">
             {codebase.map((item) => (
-              <li className="bg-opacity-60 bg-slate-300 px-1 rounded font-fjalla-one">
+              <li className="bg-opacity-40 bg-slate-500 px-1 rounded font-fjalla-one">
                 {item}
               </li>
             ))}

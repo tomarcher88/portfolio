@@ -4,17 +4,23 @@ import linkedinLogo from '../images/LinkedIn.png'
 
 export default function About() {
   return (
-    <footer className="bg-slate-700 min-h-screen flex items-center justify-center">
+    <footer id="About" className="bg-slate-700 min-h-screen flex items-center justify-center">
       <article className="text-2xl text-center p-5 sm:p-24" id="About">
         <h1 className="py-4 text-9xl font-fjalla-one">About</h1>
         <p className="text-center">
-          Having spent the last three years embracing self-improvement and
-          devoting myself to learning web development, I have built up an
-          understanding of HTML, CSS, JavaScript & React, and a portfolio that
-          demonstrates the skills and knowledge I have acquired over that time.
-          I know how to fetch data from an API, build a React component and even
-          centre a div; now I feel it's time for me to take the next step and
-          start building a career along with my knowledge.
+          A pragmatic, self-motivated, team player with an excellent work-ethic,
+          I enjoy challenging tasks that require me to utilise my patience and
+          problem-solving skills. I am a Junior Developer with experience
+          working with: HTML, CSS, JavaScript (including jQuery & React),
+          TailwindCSS, Bootstrap and Git. I have experience handling material
+          knowledge and performing time sensitive website updates for some of
+          the largest companies in the world and am well-regarded for my strong
+          attention to detail. I am confident fetching data from an API,
+          managing state within React and I even know how to centre a div.
+          Valuing excellent UX, my projects utilise semantic HTML, and are
+          responsive and accessible. I have an extensive background in customer
+          service and use a high level of interpersonal skills to understand the
+          needs of internal and external stakeholders.
         </p>
         <div className="py-6">
           <ul className="flex flex-col gap-8 sm:flex-row justify-evenly text-xl w-3/4 m-auto ">
