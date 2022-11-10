@@ -10,14 +10,13 @@
   }, 
 
   */
- "https://live.staticflickr.com/65535/52490533024_f40537eace_z.jpg"
 export default [
   {
     title: "Weather App 3.0",
     codebase: ["html", "react", "axios", "tailwindcss"],
     description: "Weather App 3.0 is the most aesthetic and responsive version yet. Plus, SEARCHABLE 🤯",
     url: "https://regal-sfogliatella-47f736.netlify.app/",
-    image: "https://live.staticflickr.com/65535/52490533024_f40537eace_z.jpg",
+    image: "https://live.staticflickr.com/65535/52490917123_8e8613974c_z.jpg",
   }, 
   {
     title: "Weekly Planner",
